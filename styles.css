@@ -22,7 +22,7 @@ body {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   height: 80px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
 }
 .display button {
   color: white;
@@ -37,17 +37,16 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 0.5rem;
   background: rgba(144, 19, 254, 0.8);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .col-span-2 {
   grid-column: span 2;
 }
-.row-span-2 {
-  grid-row: span 2;
+.col-span-4 {
+  grid-column: span 4;
 }
