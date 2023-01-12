@@ -24,7 +24,7 @@ body {
   height: 80px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.display div {
+.display button {
   color: white;
 }
 .buttons {
@@ -32,7 +32,7 @@ body {
   grid-template-columns: repeat(4, minmax(80px, 1fr));
   grid-template-rows: repeat(6, minmax(70px, 1fr));
 }
-.buttons div {
+.buttons button {
   display: flex;
   justify-content: center;
   align-items: center;
