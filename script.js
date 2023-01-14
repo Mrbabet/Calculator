@@ -1,3 +1,5 @@
+"use strict";
+
 const prevNumber = document.querySelector(".previous-operation");
 const mathSign = document.querySelector(".math-sign");
 const currNumber = document.querySelector(".current-operation");
